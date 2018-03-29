@@ -10,8 +10,7 @@
   background-attachment: fixed; 
   background-position: center; 
   background-repeat: no-repeat;
-  background-size: cover; 
-  background-image: url("banner-bg.jpg");
+  background-size: cover;
 }
 
 /* ------------------------------------------------------------------ */
@@ -799,7 +798,7 @@ html.no-csstransitions .home-content__main {
      width: 48px;
     height: 48px;
     text-align: left;
-    background-color: #F08406; /* THEME (F08406) */
+    background-color: #bf2222; /* THEME (F08406) red:ff2d2d; */
     position: relative;
       border: none;
       float: right;
