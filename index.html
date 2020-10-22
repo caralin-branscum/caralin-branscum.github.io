@@ -24,8 +24,13 @@
           <li class=""><a href="#aboutme">About Me</a></li>
           <li class=""><a href="#research">Research</a></li>            
           <li class=""><a href="#awards">Honors and Awards</a></li> 
-          <li class=""><a hhref="Branscum-Caralin-Resume.pdf">CV</a></li>
-         	
+          <li class=""><a href="CV">CV</a></li>
+		       <!-- nasty dirty hack -->
+			<section id="research"
+			<div class = "download-button">
+			  <a class="button"  href="Branscum-Caralin-Resume.pdf">CV</a>
+			    </div>
+	    
           <li class=""><a href="#contact">Contact</a></li>
        </ul>
     </nav>
@@ -48,7 +53,7 @@
                 <h3>Hello There</h3>
 
                 <h1>
-                    I'm Caralin Branscum.<br>
+                    I'm Caralin.<br>
                     I'm just a doctoral student interested in criminal justice.<br>
                 </h1>
 
@@ -239,7 +244,29 @@ Research</span></div>
     <div class = "section-content">
 
 <div class = "section-divider"><span>Contact</span></div>
-	    
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+    
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname">
+    
+    <label for="email">Email</label>
+    <input type="text" id="email" name="Email">
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>	    
 	   
   <!-- ADD NEW SECTIONS HERE -->
 
